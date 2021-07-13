@@ -7,7 +7,7 @@ metadata:
 spec:
   containers:
   - name: k8s-demo
-    image: hiteshsmart420/test-python-learn-ms-training-python-image:latest
+    image: hiteshsmart420/test-python-learn-ms-training-python-image
     ports:
     - name: nodejs-port
       containerPort: 3000
