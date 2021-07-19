@@ -9,12 +9,12 @@ spec:
       paths:
       - path: /
         backend:
-          serviceName: helloworld1
+          serviceName: helloworld-service1
           servicePort: 80
   - host: helloworld-v2.example.com
     http:
       paths:
       - path: /
         backend:
-          serviceName: helloworld2
+          serviceName: helloworld-service2
           servicePort: 80
