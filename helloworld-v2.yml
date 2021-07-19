@@ -26,6 +26,7 @@ metadata:
 spec:
   ports:
   - port: 31002
+    nodePort: 30304
     targetPort: nodejs-port
     protocol: TCP
   selector:
