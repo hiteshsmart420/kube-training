@@ -4,17 +4,17 @@ metadata:
   name: helloworld-rules
 spec:
   rules:
-  - host: helloworld-v1.example.com
+  - host: helloworld1.example.com
     http:
       paths:
       - path: /
         backend:
-          serviceName: helloworld-v1
+          serviceName: helloworld1
           servicePort: 80
-  - host: helloworld-v2.example.com
+  - host: helloworld2.example.com
     http:
       paths:
       - path: /
         backend:
-          serviceName: helloworld-v2
+          serviceName: helloworld2
           servicePort: 80
